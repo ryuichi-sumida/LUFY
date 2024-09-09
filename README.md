@@ -5,7 +5,7 @@ Exploring Forgetting with Psychological Insights].
 
 LUFY is a RAG-based chatbot designed to forget unimportant conversations, managing to forget over 90% of irrelevant content!
 
-# Getting Started
+# Talk to LUFY
 
 ## Create the enironment necessary to run the files
 
