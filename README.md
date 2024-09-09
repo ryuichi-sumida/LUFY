@@ -5,9 +5,9 @@ Exploring Forgetting with Psychological Insights].
 
 LUFY is a RAG-based chatbot designed to forget unimportant conversations, managing to forget over 90% of irrelevant content!
 
-## Getting Started
+# Getting Started
 
-# Create the enironment necessary to run the files
+## Create the enironment necessary to run the files
 
 Step1: conda create --name your_env_name python=3.11
 
@@ -15,13 +15,13 @@ Step2: pip install -r requirements.txt
 
 Step3: #Edit the .env file and write your OPENAI API KEY
 
-# Actual conversation step
+## Actual conversation step
 Step4: Navigate to LUFY/code directory and type "python chat.py" to start the conversation.
 
 Type "stop" to stop the conversation.
 Enjoy!
 
-## Dataset
+# Dataset
 
 We are also releasing a new dataset that is 4.5x larger than any existing text-based conversation dataset, structured as follows:
 /Dataset/{System Name}/{User Name}/{Session Number}/{Annotation Number}.xlsx
