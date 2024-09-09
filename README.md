@@ -1,7 +1,7 @@
 # LUFY: A RAG Chatbot that forgets unimportant conversations
 
 This repository contains the code and dataset for the paper titled [Should RAG Chatbots Forget Unimportant Conversations?
-Exploring Forgetting with Psychological Insights](https://baseball.yahoo.co.jp/npb/). 
+Exploring Forgetting with Psychological Insights]. 
 
 LUFY is a RAG-based chatbot designed to forget unimportant conversations, managing to forget over 90% of irrelevant content!
 
@@ -21,6 +21,6 @@ We are also releasing a new dataset that is 4.5x larger than any existing text-b
 
 ## Additional Information
 
-For more details on the project, including the methodology and results, please refer to our paper [here](https://baseball.yahoo.co.jp/npb/).
+For more details on the project, including the methodology and results, please refer to our paper [here].
 
 
