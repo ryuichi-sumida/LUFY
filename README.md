@@ -33,6 +33,6 @@ We are also releasing a new dataset that is 4.5x larger than any existing text-b
 
 ## Additional Information
 
-For more details on the project, including the methodology and results, please refer to our paper [here].
+For more details on the project, including the methodology and results, please refer to our paper [here] or contact the authors (sumida@sap.ist.i.kyoto-u.ac.jp).
 
 
