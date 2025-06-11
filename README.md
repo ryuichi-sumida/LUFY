@@ -1,13 +1,26 @@
-# LUFY: A RAG Chatbot that forgets unimportant conversations
+# LUFY: A RAG Chatbot That Forgets Unimportant Conversations
 
-This repository contains the code and dataset for the paper titled [Should RAG Chatbots Forget Unimportant Conversations?
-Exploring Forgetting with Psychological Insights](https://arxiv.org/pdf/2409.12524). 
+This repository contains the code and dataset for the paper titled  
+**[Should RAG Chatbots Forget Unimportant Conversations? Exploring Forgetting with Psychological Insights](https://arxiv.org/pdf/2409.12524)**.
 
-LUFY is a RAG-based chatbot designed to forget unimportant conversations, managing to forget over 90% of irrelevant content!
+**LUFY** is a Retrieval-Augmented Generation (RAG) chatbot that selectively forgets unimportant conversations — managing to forget over 90% of irrelevant content! This approach enables more efficient long-term interaction with reduced memory bloat and improved relevance.
 
-# Talk to LUFY
+---
 
-## Create the enironment necessary to run the files
+## 📚 Dataset
+
+We are releasing the **largest known conversation dataset** between a human and a system, with each conversation spanning approximately **12,000 tokens** or **253 turns**.
+
+Each conversation entry includes:
+- Full dialogue history
+- Question-Answer (QA) pairs
+- Evidence utterances supporting each answer
+
+---
+
+## 💬 Talk to LUFY
+
+### 🛠️ Set Up the Environment
 
 Step1: conda create --name your_env_name python=3.11
 
@@ -20,16 +33,6 @@ Step4: Navigate to LUFY/code directory and type "python chat.py" to start the co
 
 Type "stop" to stop the conversation.
 Enjoy!
-
-# Dataset
-
-We are also releasing a new dataset that is 4.5x larger than any existing text-based conversation dataset, structured as follows:
-/Dataset/{System Name}/{User Name}/{Session Number}/{Annotation Number}.xlsx
-
-- **System Name**: The chatbot's name, either LUFY, MemoryBank or Naive RAG.
-- **User Name**: The name of the user.
-- **Session Number**: Either 1, 2, 3 or 4.
-- **Annotation Number**: Either 1, 2 or 3.
 
 ## Additional Information
 
