@@ -9,7 +9,7 @@ This repository contains the code and dataset for the paper titled
 
 ## 📚 Dataset
 
-We are releasing the **largest known conversation dataset** between a human and a system, with each conversation spanning approximately **12,000 tokens** or **253 turns**.
+We are releasing the **largest known conversation dataset** between a human and a system, with each conversation spanning approximately **12,000 tokens** or **253 turns** for 17 different users.
 
 Each conversation entry includes:
 - Full dialogue history
