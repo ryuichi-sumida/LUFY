@@ -11,6 +11,8 @@ This repository contains the code and dataset for the paper titled
 
 We are releasing the **largest known conversation dataset** between a human and a system, with each conversation spanning approximately **12,000 tokens** or **253 turns** for 17 unique users.
 
+The same dataset can be found at [Hugginface](https://huggingface.co/datasets/RuiSumida/LUFY).
+
 ### Dataset Structure
 
 The dataset is released in two configurations:
