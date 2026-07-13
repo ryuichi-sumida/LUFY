@@ -45,6 +45,10 @@ Each row corresponds to a question–answer pair derived from the conversations.
 
 ---
 
+## 🤖 Model
+
+The fine-tuned RoBERTa-large used for memory-importance (valence/arousal) prediction is hosted on [Hugging Face](https://huggingface.co/RuiSumida/LUFY) and is downloaded automatically the first time you run LUFY — no Git LFS required.
+
 ## 💬 Talk to LUFY
 
 ### 🛠️ Set Up the Environment

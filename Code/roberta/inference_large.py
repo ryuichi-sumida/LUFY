@@ -1,5 +1,6 @@
 import os
 import torch
+from huggingface_hub import hf_hub_download
 from transformers import RobertaTokenizer, RobertaForSequenceClassification
 import logging
 
@@ -20,12 +21,12 @@ def emotion_prediction(text_to_predict):
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     model = model.to(device)
 
-    # Change directory to load the state dict and then revert
-    original_directory = os.getcwd()
-    os.chdir("./roberta")
-    model.load_state_dict(torch.load("best_roberta_large.pth", map_location=device))
+    # Download the fine-tuned weights from Hugging Face (cached after first use)
+    model_path = hf_hub_download(
+        repo_id="RuiSumida/LUFY", filename="best_roberta_large.pth"
+    )
+    model.load_state_dict(torch.load(model_path, map_location=device))
     model.eval()
-    os.chdir(original_directory)
 
     # Load the tokenizer
     tokenizer = RobertaTokenizer.from_pretrained("roberta-large")
